@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         var vReg:Regex = Regex("[x,+,/,.,-]")
 
         if(btnValue.equals("=")){
+
             var s = shwText.toCharArray();
 
             for (i in 0.rangeTo(s.size-2)){
